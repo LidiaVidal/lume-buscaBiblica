@@ -1,18 +1,18 @@
 [
     {
-        "nome": "Ansiedade, ansioso, ansiosa, preocupada, nervoso, nervosa, preocupado, futuro, pânico, crise de ansiedade",
+        "nome": "Ansiedade, ansioso, ansiosa, preocupada, nervoso, nervosa, preocupado, futuro, pânico, crise de ansiedade, estresse",
         "versiculo": "Versículo: Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês. (Filipenses 4:6-7)",
         "conselho": "A ansiedade é o nosso desejo humano de tentar controlar um futuro que ainda não chegou. Esse texto não é uma ordem para reprimir o que você sente, mas um convite para uma troca: você entrega o seu controle a Deus, e Ele te entrega a paz d'Ele. Você não precisa carregar o mundo nas costas hoje.",
         "dica": "Dica: Feche os olhos, respire fundo três vezes e diga em voz alta: 'Eu não tenho controle de tudo, e tudo bem'."
     },
     {
-        "nome": "Tristeza, triste, depressão, deprê, desanimado, desanimada, chorar, angústia, dor no peito, melancolia, infeliz",
+        "nome": "Tristeza, triste, depressão, deprê, desanimado, desanimada, chorar, angústia, dor no peito, melancolia",
         "versiculo": "Versículo: Perto está o Senhor dos que têm o coração quebrantado e salva os de espírito oprimido. (Salmos 34:18)",
         "conselho": "Muitas vezes achamos que precisamos estar 'bem' para falar com Deus, mas Ele tem uma atração especial pelos corações partidos. Ele não exige que você sorria agora. Ele apenas promete que estará ao seu lado no meio do choro. Sua dor é vista e validada pelo Céu.",
         "dica": "Dica: Não se force a 'ficar feliz' agora. Coloque uma música instrumental suave e permita-se ser consolado."
     },
     {
-        "nome": "Cansaço, cansado, cansada, exausto, exausta, burnout, sem forças, sobrecarregado, sobrecarregada, estressado, estressada, esgotamento",
+        "nome": "Cansaço, cansado, cansada, exausto, exausta, burnout, sem forças, sobrecarregado, sobrecarregada, esgotamento, cansaço espiritual",
         "versiculo": "Versículo: Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso. (Mateus 11:28)",
         "conselho": "O mundo diz 'trabalhe enquanto eles dormem', mas Deus diz 'venha a mim e descanse'. O descanso não é apenas dormir, é saber que o mundo não vai desabar se você parar por um momento. Sua alma precisa de pausa tanto quanto seu corpo precisa de sono.",
         "dica": "Dica: Desligue as notificações do celular por 15 minutos e fique em silêncio. Nada urgente vai acontecer agora."
@@ -36,7 +36,7 @@
         "dica": "Dica: Ore pedindo sabedoria, não apenas dinheiro. Anote uma única coisa prática que você pode organizar hoje nas suas finanças."
     },
     {
-        "nome": "Raiva, ódio, ira, nervoso, nervosa, furioso, furiosa, vingança, irritado, irritada, explosão, agressividade",
+        "nome": "Raiva, ódio, ira, nervoso, nervosa, furioso, furiosa, vingança, irritado, irritada, explosão, agressividade, críticas",
         "versiculo": "Versículo: Meus amados irmãos, tenham isto em mente: Sejam todos prontos para ouvir, tardios para falar e tardios para irar-se, pois a ira do homem não produz a justiça de Deus. (Tiago 1:19-20)",
         "conselho": "A raiva é um sinal de alerta de que algo está errado, mas ela é um péssimo guia de comportamento. Quando agimos no calor da emoção, geralmente criamos cicatrizes nos outros e em nós mesmos. A sabedoria está em sentir a raiva, mas não deixar ela pilotar suas ações.",
         "dica": "Dica: Se estiver prestes a explodir, saia do ambiente. Beba um copo de água gelada e espere 5 minutos antes de responder."
@@ -72,7 +72,7 @@
         "dica": "Dica: Use a regra dos 5 minutos. Comprometa-se a fazer a tarefa chata por apenas 5 minutos. Geralmente, o difícil é só começar."
     },
     {
-        "nome": "Confusão, dúvida, indecisão, perdido, perdida, escolha, direção, não sei o que fazer, incerteza, qual caminho",
+        "nome": "Confusão, dúvida, indecisão, perdido, perdida, escolha, direção, não sei o que fazer, incerteza, qual caminho, sabedoria",
         "versiculo": "Versículo: Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida. (Tiago 1:5)",
         "conselho": "Deus não brinca de esconde-esconde com a Sua vontade. Se você está confuso, pare de tentar resolver tudo com a lógica humana. Ele promete dar sabedoria a quem pede. Às vezes, a resposta vem no silêncio ou numa porta que se fecha.",
         "dica": "Dica: Pare de pedir opiniões para todo mundo. Ore e aguarde um dia inteiro antes de tomar essa decisão."
@@ -198,12 +198,6 @@
         "dica": "Dica: Passe 15 minutos ouvindo música de louvor que direcione seu foco para a grandeza de Deus e o quanto Ele já fez por você."
     },
     {
-        "nome": "Culpa espiritual, culpado, culpada, remorso, peso na consciência, erro passado, me perdoar, autoperdão, acusação",
-        "versiculo": "Versículo: Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça. (1 João 1:9)",
-        "conselho": "Se você confessou seu pecado e se arrependeu genuinamente, a Palavra garante que o perdão foi dado. A culpa persistente após o perdão não vem de Deus, mas pode ser uma acusação do inimigo. Aceite o perdão de Cristo.",
-        "dica": "Dica: Escreva o que o aflige, confesse a Deus e, simbolicamente, rasgue o papel como sinal de que o fardo foi removido pela graça de Cristo."
-    },
-    {
         "nome": "Medo do Futuro, ansiedade, amanhã, preocupação, o que vai acontecer, incerteza, insegurança, prever, controle",
         "versiculo": "Versículo: Portanto, não se preocupem com o amanhã, pois o amanhã trará as suas próprias preocupações. Basta a cada dia o seu próprio mal. (Mateus 6:34)",
         "conselho": "Viva um dia de cada vez, confiando na provisão diária de Deus. O futuro pertence a Ele, e sofrer por antecipação só rouba a paz que você pode ter hoje.",
@@ -216,18 +210,6 @@
         "dica": "Dica: Estabeleça um horário fixo e inegociável de 10 minutos diários para a leitura bíblica, começando por um livro que o motive, como o Evangelho de João."
     },
     {
-        "nome": "Tentação, tentado, tentada, cair em pecado, desejo, carne, provação, resistir, pecado, luta contra o pecado",
-        "versiculo": "Versículo: Não sobreveio a vocês tentação que não fosse comum aos homens. E Deus é fiel; ele não permitirá que vocês sejam tentados além do que podem suportar. Mas, quando forem tentados, ele lhes providenciará um escape, para que o possam suportar. (1 Coríntios 10:13)",
-        "conselho": "Você não está sozinho em suas lutas. Deus sempre oferece um caminho de escape. O segredo é identificar a tentação e buscar esse escape ativamente, resistindo ao Diabo.",
-        "dica": "Dica: Ao sentir a tentação, recite mentalmente o versículo ou mude imediatamente o ambiente físico ou a atividade que está realizando. Fuja da ocasião do pecado."
-    },
-    {
-        "nome": "Orgulho, orgulhoso, orgulhosa, altivez, nariz empinado, prepotência, arrogância, não aceita ajuda, egoísta",
-        "versiculo": "Versículo: Deus se opõe aos orgulhosos, mas concede graça aos humildes. (Tiago 4:6)",
-        "conselho": "O orgulho é a raiz de muitos pecados, pois nos impede de reconhecer nossa total dependência de Deus. A humildade precede a honra e nos coloca na posição correta diante do Criador.",
-        "dica": "Dica: Escolha um dia para servir alguém de forma humilde e sem que essa pessoa saiba quem a ajudou (serviço secreto), praticando a verdadeira caridade."
-    },
-    {
         "nome": "Ingratidão, ingrato, ingrata, reclamar, reclamação, insatisfeito, insatisfeita, murmurar, murmuração, nunca está bom",
         "versiculo": "Versículo: Seja a paz de Cristo o árbitro em seus corações, visto que vocês foram chamados para viver em paz, como membros de um só corpo. E sejam agradecidos. (Colossenses 3:15)",
         "conselho": "A gratidão é o combustível da paz de Cristo e uma disciplina espiritual fundamental. Se você focar apenas no que falta, a ingratidão roubará sua alegria. Reconheça que tudo de bom vem de Deus.",
@@ -238,12 +220,6 @@
         "versiculo": "Versículo: E, quando estiverem orando, se tiverem algo contra alguém, perdoem, para que o Pai de vocês, que está nos céus, também lhes perdoe os seus pecados. (Marcos 11:25)",
         "conselho": "Perdoar não significa que você aprova a ofensa, mas que você libera a pessoa do débito e a si mesmo da amargura. Nosso perdão aos outros é um reflexo do imenso perdão que recebemos de Cristo.",
         "dica": "Dica: Ore pela pessoa que o ofendeu, pedindo a Deus que a abençoe. Essa atitude quebra o ciclo da amargura, mesmo que o sentimento seja difícil no início."
-    },
-    {
-        "nome": "Estresse, estressado, estressada, nervoso, nervosa, pressão, tensão, muita coisa pra fazer, explodindo, sobrecarga",
-        "versiculo": "Versículo: Não andem ansiosos por coisa alguma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus. (Filipenses 4:6-7)",
-        "conselho": "O estresse surge quando tentamos carregar fardos que pertencem a Deus. Em vez de se preocupar, transforme suas ansiedades em orações específicas. A paz de Deus é sobrenatural e garantirá seu equilíbrio emocional e mental.",
-        "dica": "Dica: Faça pausas curtas durante o dia para respirar profundamente e entregar mentalmente as tarefas que geram estresse a Deus, confiando em Seu controle."
     },
     {
         "nome": "Ciúme, ciumento, ciumenta, posse, possessivo, insegurança no amor, medo de perder, competitividade",
@@ -268,18 +244,6 @@
         "versiculo": "Versículo: Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração. (Romanos 12:12)",
         "conselho": "A impaciência é o oposto da fé e rouba o contentamento. A paciência é um fruto do Espírito, cultivado em tempos de espera. Confie no tempo de Deus, que é perfeito.",
         "dica": "Dica: Pratique a espera ativa: quando tiver que esperar (fila, trânsito), use esse tempo para meditar na Palavra, fazer uma oração silenciosa ou interceder por alguém."
-    },
-    {
-        "nome": "Críticas, criticado, criticada, julgamento, falaram mal de mim, fofoca, apontaram o dedo, difamação, calúnia",
-        "versiculo": "Versículo: Meus amados irmãos, tenham isto em mente: sejam todos prontos para ouvir, tardios para falar e tardios para irar-se. (Tiago 1:19)",
-        "conselho": "Nem toda crítica é maliciosa; algumas podem conter verdades necessárias para nosso crescimento. Seja rápido em ouvir, avalie o conteúdo à luz da Bíblia e aprenda. Descarte o que for destrutivo, mas absorva o que for construtivo.",
-        "dica": "Dica: Antes de responder a uma crítica, espere 24 horas. Isso permite que a emoção esfrie e você reaja com sabedoria, não com impulsividade ou defesa própria."
-    },
-    {
-        "nome": "Busca por Sabedoria, sábio, sábia, entendimento, discernimento, inteligência, conselho, decisão certa, mente de Cristo",
-        "versiculo": "Versículo: Se algum de vocês tem falta de sabedoria, peça-a a Deus, que a todos dá livremente, de boa vontade; e lhe será concedida. (Tiago 1:5)",
-        "conselho": "A sabedoria para tomar decisões complexas e viver a vida de forma piedosa não é alcançada apenas pelo intelecto, mas por um dom de Deus. Peça-a com fé e Ele a dará generosamente.",
-        "dica": "Dica: Comece a ler um livro de sabedoria na Bíblia, como Provérbios, dedicando a leitura de um capítulo por dia. A sabedoria de Deus se manifesta através de Sua Palavra."
     },
     {
         "nome": "Fidelidade em Provações, provação, provações, luta, dificuldade, teste de fé, deserto, aguentar firme, perseverança",
@@ -322,11 +286,5 @@
         "versiculo": "Versículo: Pois estou convencido de que nem a morte nem a vida, nem anjos nem demônios, nem o presente nem o futuro, nem quaisquer poderes, nem altura nem profundidade, nem qualquer outra coisa na criação será capaz de nos separar do amor de Deus que está em Cristo Jesus, nosso Senhor. (Romanos 8:38-39)",
         "conselho": "A rejeição humana é dolorosa, mas é fundamental que você entenda que ela não anula a aceitação total e o amor incondicional que você tem em Deus. Sua identidade está firmada em Cristo, e nEle, você é amado e aceito para sempre.",
         "dica": "Dica: Recite versículos que afirmam sua identidade em Cristo (ex: João 1:12 - 'Filho de Deus') sempre que o sentimento de rejeição tentar dominá-lo."
-    },
-    {
-        "nome": "Cansaço espiritual, esgotado, esgotada, exaustão, sem energia, alma cansada, peso, fardo, fadiga",
-        "versiculo": "Versículo: Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso. (Mateus 11:28)",
-        "conselho": "Jesus nos convida a depositar nossos fardos pesados nEle. O cansaço pode ser um sinal de que estamos tentando operar em nossa própria força, ou carregando responsabilidades que Ele não nos deu. Busque o descanso que só Ele pode oferecer.",
-        "dica": "Dica: Permita-se um 'sábado' de descanso. Desconecte-se das obrigações, da tecnologia e da pressa, dedicando tempo à restauração física e espiritual genuína."
     }
 ]
