@@ -1,4 +1,4 @@
-# 🕯️ Lume
+#  Lume💡
 
 > "Lâmpada para os meus pés é a Tua palavra e luz para o meu caminho." (Salmos 119:105)
 
@@ -48,8 +48,10 @@ O desafio era criar uma aplicação que utilizasse busca em dados locais, mas o 
 
 ## 📷 Demonstração
 
-![Demonstração do Lume](assets/lume-demo.gif)
-*(Nota: Substitua 'assets/lume-demo.gif' pelo caminho da sua imagem ou gif)*
+![Demonstração do Lume](assets/lume-light.png)
+
+![Demonstração do Lume](assets/mododark.png)
+
 
 ## 🤝 Como rodar localmente
 
