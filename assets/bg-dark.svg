@@ -1,0 +1,82 @@
+<svg width="800" height="600" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 
+    CENA: O MOMENTO DE CLAREZA (DARK MODE)
+    Cores adaptadas para fundo escuro #1F1D1B
+    -->
+
+    <!-- 1. O BRILHO DE FUNDO (Aura) -->
+    <!-- Opacidade levemente aumentada para brilhar no escuro -->
+    <circle cx="200" cy="120" r="90" fill="#EAC435" fill-opacity="0.1"/>
+
+    <!-- 2. A PLANTA (Esperança/Natureza) - Lado Esquerdo -->
+    <g transform="translate(60, 160) rotate(-10)">
+        <!-- Folhas em Verde Sálvia -->
+        <path d="M20 60 Q10 30 30 10 Q50 30 40 60" fill="#7D8C76" fill-opacity="0.6"/>
+        <path d="M20 60 Q10 30 30 10 Q50 30 40 60" stroke="#EAE0D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M40 80 Q60 50 80 40 Q70 70 40 80" fill="#7D8C76" fill-opacity="0.6"/>
+        <path d="M40 80 Q60 50 80 40 Q70 70 40 80" stroke="#EAE0D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- Caule -->
+        <path d="M30 100 Q30 60 40 50" stroke="#EAE0D5" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- 3. A XÍCARA (Conforto) - Lado Direito -->
+    <g transform="translate(300, 190)">
+        <!-- Fumaça saindo (traços claros agora) -->
+        <path d="M15 -10 Q20 -20 15 -30" stroke="#EAE0D5" stroke-width="1.5" stroke-opacity="0.5" stroke-linecap="round"/>
+        <path d="M25 -5 Q30 -15 25 -25" stroke="#EAE0D5" stroke-width="1.5" stroke-opacity="0.5" stroke-linecap="round"/>
+        
+        <!-- Corpo da Xícara em Terracota -->
+        <path d="M0 0 H40 V30 C40 41.0457 31.0457 50 20 50 C8.9543 50 0 41.0457 0 30 V0 Z" fill="#C06C5F" fill-opacity="0.2"/>
+        <path d="M0 0 H40 V30 C40 41.0457 31.0457 50 20 50 C8.9543 50 0 41.0457 0 30 V0 Z" stroke="#EAE0D5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- Alça -->
+        <path d="M40 10 H45 C47.7614 10 50 12.2386 50 15 V25 C50 27.7614 47.7614 30 45 30 H40" stroke="#EAE0D5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- 4. O LIVRO/BÍBLIA ABERTA (Centro) -->
+    <g transform="translate(100, 180)">
+        <!-- Páginas: Usando Grafite Escuro (#2E2E2E) para o papel no modo noturno -->
+        <!-- Lado Esquerdo -->
+        <path d="M100 80 V20 C100 20 60 10 20 20 C20 20 10 80 10 80 C10 80 50 70 100 80 Z" fill="#2E2E2E" stroke="#EAE0D5" stroke-width="2.5" stroke-linejoin="round"/>
+        <!-- Lado Direito -->
+        <path d="M100 80 V20 C100 20 140 10 180 20 C180 20 190 80 190 80 C190 80 150 70 100 80 Z" fill="#2E2E2E" stroke="#EAE0D5" stroke-width="2.5" stroke-linejoin="round"/>
+        
+        <!-- Detalhe da Lombada -->
+        <path d="M100 20 V80" stroke="#EAE0D5" stroke-width="2"/>
+        
+        <!-- Linhas de Texto (Simuladas) - Bege Claro agora -->
+        <!-- Esquerda -->
+        <line x1="30" y1="35" x2="80" y2="35" stroke="#EAE0D5" stroke-width="1.5" stroke-opacity="0.4"/>
+        <line x1="30" y1="45" x2="85" y2="45" stroke="#EAE0D5" stroke-width="1.5" stroke-opacity="0.4"/>
+        <line x1="30" y1="55" x2="75" y2="55" stroke="#EAE0D5" stroke-width="1.5" stroke-opacity="0.4"/>
+        <!-- Direita -->
+        <line x1="115" y1="35" x2="170" y2="35" stroke="#EAE0D5" stroke-width="1.5" stroke-opacity="0.4"/>
+        <line x1="115" y1="45" x2="160" y2="45" stroke="#EAE0D5" stroke-width="1.5" stroke-opacity="0.4"/>
+        <line x1="115" y1="55" x2="165" y2="55" stroke="#EAE0D5" stroke-width="1.5" stroke-opacity="0.4"/>
+        
+        <!-- Marcador de Página (Terracota) -->
+        <path d="M130 20 V60 L135 55 L140 60 V20" fill="#C06C5F"/>
+    </g>
+
+    <!-- 5. A LÂMPADA/LUME (Iluminando a cena) -->
+    <g transform="translate(175, 20) scale(0.8)">
+        <!-- Fio pendurado -->
+        <line x1="28" y1="-20" x2="28" y2="2" stroke="#EAE0D5" stroke-width="2"/>
+        
+        <!-- Bulbo (Vidro escuro) -->
+        <path d="M28 2C15.8497 2 6 11.8497 6 24C6 31.5 10 37.5 14.5 42C17.5 45 19 47 19 50H37C37 47 38.5 45 41.5 42C46 37.5 50 31.5 50 24C50 11.8497 40.1503 2 28 2Z" fill="#2E2E2E" fill-opacity="0.5" stroke="#EAE0D5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        
+        <!-- Base da Lâmpada -->
+        <path d="M21 50H35V54H21V50Z" fill="#7D8C76" stroke="#EAE0D5" stroke-width="2"/>
+        <path d="M23 54H33V57C33 58.6569 31.6569 60 30 60H26C24.3431 60 23 58.6569 23 57V54Z" fill="#EAE0D5"/>
+        
+        <!-- Filamento Amarelo -->
+        <path d="M20 34C20 34 22 28 24 28C26 28 26 34 28 34C30 34 30 28 32 28C34 28 36 34 36 34" stroke="#EAC435" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="20" cy="34" r="1.5" fill="#EAC435"/>
+        <circle cx="36" cy="34" r="1.5" fill="#EAC435"/>
+    </g>
+    
+    <!-- Raios de luz descendo -->
+    <path d="M190 70 L150 160" stroke="#EAC435" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.6"/>
+    <path d="M210 70 L250 160" stroke="#EAC435" stroke-width="2" stroke-dasharray="4 4" stroke-opacity="0.6"/>
+
+</svg>

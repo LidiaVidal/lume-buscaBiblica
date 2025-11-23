@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* --- Variáveis e Cores --- */
+:root {
+    --bg-color: #F9F7F2;
+    --primary-color: #2E2E2E;
+    --secondary-color: #595959;
+    --accent-color: #C06C5F;
+    --border-color: #7D8C76;
+    --white-pure: #FFFFFF;
+    --switch-bg: url(./assets/sun.svg);
+    --bg-image: url(./assets/bg-light.svg);
+}
+
+.dark {
+    --bg-color: #1F1D1B;
+    --primary-color: #EAE0D5;
+    --secondary-color: #B0A89E;
+    --accent-color: #C06C5F;
+    --border-color: #7D8C76;
+    --white-pure: #2E2B28;
+    --switch-bg: url(./assets/moon-stars.svg);
+    --bg-image: url(./assets/bg-dark.svg);
+}
+
+/* --- Global --- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: "Lato", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Header --- */
+header {
+    display: flex;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    background: var(--bg-color);
+    border-bottom: 1px solid var(--bg-color);
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-family: "Lora", serif;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* --- Switch de Tema --- */
+#switch {
+    min-width: 60px;
+    justify-content: flex-end;
+    position: relative;
+    width: 64px;
+    margin: 0;
+    cursor: pointer;
+    height: 32px;
+    flex-shrink: 0;
+    padding: 0;
+    display: block;
+    align-items: center;
+}
+
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: white var(--switch-bg) no-repeat center;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 2;
+    transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.dark #switch button {
+    left: 32px;
+}
+
+#switch button:hover {
+    outline: 8px solid var(--border-color);
+}
+
+#switch span {
+    display: block;
+    height: 24px;
+    width: 100%;
+    background: var(--accent-color);
+    border: 1px solid var(--border-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 9999px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+/* --- Branding e Busca --- */
+.branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    font-size: 1.0rem;
+}
+
+.branding img {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+.branding p {
+    font-family: 'Lato', sans-serif;
+    color: #595959;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: -15px;
+    margin-bottom: 35px;
+    opacity: 0.9;
+}
+
+.search-box input {
+    padding: 0.375rem 0.75rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border-color);
+    background: var(--white-pure);
+    font-family: inherit;
+    font-size: 1rem;
+    width: 300px;
+    max-width: 100%;
+    transition: all 0.2s ease;
+    color: var(--primary-color);
+    margin-right: .5rem;
+    caret-color: var(--accent-color);
+}
+
+.search-box input::placeholder {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+    font-family: "Lato", sans-serif;
+    opacity: 0.8;
+}
+
+.search-box input:focus {
+    outline: none;
+    border: 2px solid var(--border-color);
+    box-shadow: 0 4px 15px rgba(125, 140, 118, 0.2);
+}
+
+#botao-busca {
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    margin-top: 0.5rem;
+}
+
+#botao-busca:hover {
+    background-color: var(--button-color);
+    color: #a65d52;
+    box-shadow: 0 0 0 0.1rem var(--button-color);
+}
+
+#botao-busca:active {
+    transform: scale(0.98);
+}
+
+/* --- Layout Principal --- */
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 80rem;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.estado-zero {
+    background: var(--bg-image);
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.mensagem-vazio {
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+/* --- Cards (Articles) --- */
+article {
+    background: none;
+    border-radius: 0;
+    padding: 0 1rem 1.5rem 1rem;
+    margin-bottom: 1.25rem;
+    box-shadow: none;
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+    border-bottom: 1px solid var(--bg-color);
+}
+
+article:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+article h2 {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: "Lora", serif;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0.25rem;
+    color: var(--primary-color);
+}
+
+.versiculo {
+    font-family: "Lora", serif;
+    font-style: italic;
+    color: var(--primary-color);
+    border-left: 3px solid var(--border-color);
+    padding-left: 1rem;
+}
+
+article p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+article p strong {
+    color: var(--tertiary-color);
+    font-weight: 400;
+}
+
+article a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* --- Footer --- */
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: var(--tertiary-color);
+    background-color: var(--bg-color);
+    padding: 15px 10px;
+    border-top: 1px solid var(--button-color);
+    font-size: 0.8rem;
+}
+
+.footer-location {
+    color: #9aa0a6;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+/* --- Media Queries --- */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .search-box input {
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    article:hover {
+        transform: none;
+    }
+}
+
+@media (max-width: 350px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        gap: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1rem;
+        max-width: 70%;
+        word-wrap: break-word;
+    }
+
+    .search-box {
+        width: 100%;
+        align-items: center;
+    }
+
+    .search-box input {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .search-box input::placeholder {
+        font-size: 1rem;
+    }
+
+    article h2 {
+        font-size: 1.3rem;
+    }
+
+    #switch {
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    button {
+        margin-top: 1rem;
+    }
+}
+
+/* --- Animações --- */
+@keyframes slide-in {
+    from { left: 0; }
+    to { left: 50%; }
+}
+
+@keyframes slide-back {
+    from { left: 50%; }
+    to { left: 0; }
+}

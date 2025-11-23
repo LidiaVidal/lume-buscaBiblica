@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/faviconLume.svg" type="image/x-icon">
+    <title>Lume</title>
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <img src="assets/logoLume.svg" alt="Logo Lume">
+            <h1>Lâmpada para os meus pés é a Tua palavra</h1>
+            <p class="slogan">Digite o que você sente. Encontre o que Deus diz.</p>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Como está se sentindo hoje?">
+            <button id="botao-busca" onclick="iniciarBusca()">Buscar</button>
+        </div>
+
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="estado-zero"></div>
+        <div class="card-container"></div>
+    </main>    
+
+    <footer class="footer">
+        <ul class="footer-links">
+            <li>
+                <a href="https://github.com/LidiaVidal" target="_blank">Github</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/l%C3%ADdia-vidal-989443375/" target="_blank">Linkedin</a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
